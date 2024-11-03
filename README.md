@@ -4,5 +4,5 @@ A built-in site generator on GitHub. Use it to build websites in minutes.
 ---
 
 ### License
-This is Techie Joe's work of art. All right reserved.  
-If you're insterested in the open source version, check out [Pages](//github.com/techie-joe/pages).
+Sites is licensed under the [MIT LICENSE](//github.com/techie-joe/sites/blob/main/LICENSE).  
+You're allowed to use the code with conditions only requiring preservation of copyright and license notices.
