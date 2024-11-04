@@ -1,6 +1,6 @@
 # Techie Joe's Sites
 
-A built-in site generator on GitHub. Helps you build websites in minutes.
+A Jekyll theme for building websites on GitHub. Helps you build your website in minutes.
 ---
 
 ### License
