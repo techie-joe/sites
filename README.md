@@ -1,5 +1,3 @@
-# Techie Joe's Sites
-
 A built-in site generator on GitHub. Helps you build websites in minutes.
 ---
 
