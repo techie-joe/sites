@@ -3,25 +3,26 @@
 <html class="no-js" lang="{{ page.lang | default: site.lang | default: "en-US" }}" data-layout="base">
 
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
-
+  
   <link rel="stylesheet" href="{{ site.github.url }}/assets/main/css/style.css">
-
+  
   <meta property="og:title" content="{{ title }}">
   <meta property="og:type" content="">
   <meta property="og:url" content="{{ site.github.url }}{{ page.url }}">
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
-
+  
   <link rel="icon" href="{{ site.github.url }}/assets/main/favicon.ico" sizes="any">
   <link rel="icon" href="{{ site.github.url }}/assets/main/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{{ site.github.url }}/assets/main/icon.png">
-
+  
   <link rel="manifest" href="{{ site.manifest }}">
-
+  
   <meta id="_color-scheme" name="color-scheme" content="{{ page.color_scheme | default: site.color_scheme | default: 'light dark' }}" />
   <meta id="_theme-color"  name="theme-color"  content="{{ page.theme_color | default: site.theme_color | default: '#' }}" />
 
@@ -29,8 +30,18 @@
 
 <body>
 
-  {{ content }}
+  <main id="app" class="_app __fadein">
+    <div id="layout" class="container-lg px-3 markdown-body">
+      <header id="header"></header>
+      <article id="article">{{ content }}</article>
+      <footer id="footer">{% include footer.html %}</footer>
+    </div>
+  </main>
+
   <script src="{{ site.github.url }}/assets/main/js/script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+  <script>anchors.add();</script>
 
 </body>
 
