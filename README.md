@@ -1,6 +1,13 @@
 # Techie Joe's Sites
 
-A Jekyll theme for building websites on GitHub. Helps you build your website in minutes.
+A Jekyll theme for building websites on GitHub
+---
+
+```yml
+remote_theme: techie-joe/sites
+```
+
+[Sites](//techie-joe.github.io/sites/) helps you build your website in minutes
 ---
 
 **Techie Joe's Sites** helps you swiftly build your website on GitHub. It has everything pre-configured to get you started right away. You can write your content in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
@@ -9,12 +16,7 @@ A Jekyll theme for building websites on GitHub. Helps you build your website in 
 
 ### How to use
 
-Open your site's repository. At the root directory of your site, edit the `_config.yml` file and set the value of `remote_theme` as follows. Remove existing values of `theme` too. Then activate **GitHub Pages**. For detailed instruction, see "[Techie Joe's GitHub Pages Walkthrough](https://techie-joe.github.io/library/github-pages/)".
-
-> Edit `_config.yml`
-```yml
-remote_theme: techie-joe/sites
-```
+Open your site's repository. At the root directory of your site, edit the `_config.yml` file and set `remote_theme: techie-joe/sites`. Remove existing values of `theme` too. Then activate **GitHub Pages**. For detailed instruction, see "[Techie Joe's GitHub Pages Walkthrough](https://techie-joe.github.io/library/github-pages/)".
 
 ---
 ### License
