@@ -18,6 +18,11 @@ remote_theme: techie-joe/sites
 
 Open your site's repository. At the root directory of your site, edit the `_config.yml` file and set `remote_theme: techie-joe/sites`. Remove existing values of `theme` too. Then activate **GitHub Pages**. For detailed instruction, see [Techie Joe's GitHub Pages Walkthrough](https://techie-joe.github.io/library/github-pages/).
 
+### Demo pages
+
+- [Page](./_pages/)
+- [Post](./_posts/)
+
 ### License
 
 **Techie Joe's Sites** is licensed under the [MIT LICENSE](//github.com/techie-joe/sites/blob/main/LICENSE).  
