@@ -7,11 +7,17 @@ A Jekyll theme for building websites on GitHub. Helps you build your website in 
 
 ---
 
-Simply set the `remote_theme` value in your `_config.yml` file as follows.
+### How to use
+
+1. Open (or create new) `_config.yml` file at the root directory of your site.
+2. Remove existing values of `theme`.
+3. Set the `remote_theme` value as follows.
 
 ```yml
 remote_theme: techie-joe/sites
 ```
+
+Then activete [GitHub Pages]().
 
 ---
 ### License
