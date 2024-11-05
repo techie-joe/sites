@@ -9,7 +9,7 @@ A Jekyll theme for building websites on GitHub. Helps you build your website in 
 
 ### How to use
 
-Open your site's repository. At the root directory of your site, set the `remote_theme` value in your `_config.yml` file as follows. Remove existing values of `theme` too. Then activate **GitHub Pages**.
+Open your site's repository. At the root directory of your site, edit the `_config.yml` file and set the value of `remote_theme` as follows. Remove existing values of `theme` too. Then activate **GitHub Pages**. For detailed instruction, see "[Techie Joe's GitHub Pages Walkthrough](https://techie-joe.github.io/library/github-pages/)".
 
 > Edit `_config.yml`
 ```yml
