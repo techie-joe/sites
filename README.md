@@ -7,7 +7,7 @@ A Jekyll theme for building websites on GitHub
 remote_theme: techie-joe/sites
 ```
 
-[Sites](//techie-joe.github.io/sites/) helps you build your website in minutes
+[Sites](website) helps you build your website in minutes
 ---
 
 **Techie Joe's Sites** helps you swiftly build your website on GitHub. It has everything pre-configured to get you started right away. You can write your content in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
@@ -25,4 +25,7 @@ You're allowed to use the code with conditions only requiring preservation of co
 
 ---
 
-| [View source on GitHub](//github.com/techie-joe/sites) |
+| [View source on GitHub](source) |
+
+[website]: //techie-joe.github.io/sites/ "Techie Joe's Sites"
+[source]: //github.com/techie-joe/sites "Repository of Techie Joe's Sites"
