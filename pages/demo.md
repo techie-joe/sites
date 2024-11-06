@@ -1,17 +1,17 @@
 ---
-title: Demo
-description: Techie Joe's Sites Demo Page
+title: Sites Demo
+description: Techie Joe's Sites Demo
 ---
 {%- if page.theme!="primer" %}{% assign use_base_theme = true %}{% endif -%}
 
-This is the demo page for **Techie Joe’s Sites** - a Jekyll theme for building websites on GitHub. **Sites** can help you build your website on GitHub easily. It has everything pre-configured to get you started right away. You can write your content in both Markdown and HTML. When you commit your code, **GitHub Pages** will build and publish your website from the content of your repository.
+This is a demo page for **Techie Joe’s Sites** - a Jekyll theme for building websites on GitHub. **Sites** can help you build website easily. It has everything pre-configured to get you started right away. You can write contents in both Markdown and HTML. When you commit your code, **GitHub Pages** will build and publish your website from the content of your repository.
 {: .bg-secondary.p-3.text-slategray.text-small }
 
-<h1 class="hero" id="_hero-title">You can write <span class="text-red">a big red</span> hero text</h1>
+<h1 class="hero" id="_hero-title">Write <span class="text-red">a big red</span> hero text</h1>
 
 ***
 
-## Better control over your content
+## Better control over contents
 
 ![Small image](https://picsum.photos/id/299/400/300){: .centered.float-sm-right.m-sm-4 width=400 height=300 }
 
@@ -20,15 +20,15 @@ You can standardize paragraphs with <code>indent</code> and <code class="nowrap"
 Include image with floats and margins.
 {: .big-first.text-justify }
 
-<span class="text-grey">Following texts are meaningless fillers to fill up some space for the rest of this demo. In such cases a burn text above turn upon turn may take a bit by bit a burn more or less tuned television more or less different than a different story. Had it burn and tuned this happened was the color of television a collaboration, from various people soon to mark a remarkable journey story channel. This happened to people various bit by bit.</span>
+<span class="text-grey">Following texts are meaningless fillers to fill up some space for the rest of this demo. ... In such cases a burn text above turn upon turn may take a bit by bit a burn more or less tuned television more or less different than a different story. Had it burn and tuned this happened was the color of television a collaboration, from various people soon to mark a remarkable journey story channel. This happened to people various bit by bit.</span>
 {: .indent.text-justify }
 
 <span class="text-grey">Each time and the story channel a different story all a different story, to a pleasure the color of television. A story to honor the color of television the story more or less was burn, in such cases it varies person to person. This happened to the color of television as television different than a different story.</span>
 {: .indent.text-justify }
 
-***
+&nbsp;  
 
-## Text styles &amp; color
+## Style text &amp; color
 
 Text can be written in **bold**, _italic_, ***both***, ~~strikethrough~~,
 <abbr title="Abbreviation">abbr</abbr>,
@@ -52,13 +52,14 @@ Text can be written in **bold**, _italic_, ***both***, ~~strikethrough~~,
 > You can write a bunch of text in a blockquote.
 >
 > > A blockquote can be nested too.
+> 
 
 <!-- This content will not appear in the rendered Markdown -->
 
-This is a `box bg-primary` container.
+Write texts in a container `box` with a background `bg-primary`.
 {: .box.bg-primary.text-white.text-center }
 
-This is a `box bg-secondary` container.
+... or use a `box` wtih `bg-secondary` container.
 {: .box.bg-secondary.text-center }
 
 ## Collapsible blocks
@@ -96,6 +97,7 @@ Add full scale images, align them centered or float them left or right.
 ![Large image](https://picsum.photos/id/3/1024/368){: .width-full.centered }
 
 > Images for this demo came from [picsum.photos](https://picsum.photos/) and [unsplash](https://unsplash.com)
+{: .text-small }
 
 ***
 
@@ -136,8 +138,6 @@ Add full scale images, align them centered or float them left or right.
         - task item level 3
     - task item level 2
 - [ ] Pending task.
-- [ ] \(Escape) tasks that begins with a parenthesis.
-
 
 ## Definitions
 
@@ -150,15 +150,16 @@ Add full scale images, align them centered or float them left or right.
 
 ## Table
 
-| Simple table      | Status       | Notes      |
+| Full table      | Status       | Notes      |
 | :---------------- | :----------: | ---------: |
 | good swedish fish | ok           | nice       |
 | good and plenty   | out of stock | nice       |
 | good `oreos`      | ok           | hmm        |
 | good `zoute` drop | ok           | yumm       |
+{: .full }
 
-<table class="full">
-<tr><th colspan="3">Full table</th></tr>
+<table>
+<tr><th colspan="3">Simple table</th></tr>
 <tr><td>one</td><td>two</td><td>three</td></tr>
 <tr><td>1</td><td>2</td><td>3</td></tr>
 </table>
@@ -180,11 +181,11 @@ Add full scale images, align them centered or float them left or right.
 ## Links
 
 You can create links to
-[a page]({{ site.baseurl }}/pages/example "Page Example").
+[pages]({{ site.baseurl }}/pages/ "Page examples").
 
 {% if site.posts.size > 0 %}
 
-Make a list of all the posts you have:
+... or make a list of all the posts you have:
 
 <ul>{% for post in site.posts -%}
 <li><a href="..{{ post.url }}">{{ post.title }}</a></li>
