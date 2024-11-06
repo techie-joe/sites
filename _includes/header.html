@@ -1,12 +1,13 @@
-{% if page.bar != 'hide' or site.bar != 'hide' %}
+{% if page.bar != 'hide' and site.bar != 'hide' %}
   <nav id="_header-bar">
     <div class="_flex my-2">
-      <div class="_flex-main">{% if page.url == '' or page.url == '/' %}{% else %}{% include title.html %}{% endif %}</div>
+      {% if page.url == '' or page.url == '/' %}{% else %}
+        {% if page.show_title != 'hide' and site.show_title != 'hide' and site.title and site.title != page.title %}
+          <div class="_flex-main"><h1 class="_title"><a href="{{ '/' | site.github.url }}">{{ site.title }}</a></h1></div>
+        {% endif %}
+      {% endif %}
       {% include topmenu.html %}
     </div>
     <hr class="mt-0" />
   </nav>
-{% endif %}
-{% if page.show_title != 'hide' and site.title and site.title != page.title %}
-{% include title.html %}
 {% endif %}
