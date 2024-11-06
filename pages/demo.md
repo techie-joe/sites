@@ -1,3 +1,6 @@
+---
+title: Demo
+---
 {%- if page.theme!="primer" %}{% assign use_base_theme = true %}{% endif -%}
 
 This template helps you build websites on **GitHub**.
