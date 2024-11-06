@@ -32,4 +32,4 @@ You're allowed to use the code with conditions only requiring preservation of co
 | [View source on GitHub][source] |
 
 [website]: //techie-joe.github.io/sites/ "Techie Joe's Sites"
-[source]: //github.com/techie-joe/sites "Repository of Techie Joe's Sites"
+[source]: //github.com/techie-joe/sites "Techie Joe's Sites repository"
