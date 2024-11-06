@@ -20,7 +20,7 @@ Open your site's repository. At the root directory of your site, edit the `_conf
 
 ### Demos
 
-| [Page](./_pages/) | [Post](./_posts/) | [Vars](./_pages/vars.html) |
+| [Page](./_pages/) | [Post](./_posts/) | [Vars](./pages/vars.html) |
 
 ### License
 
