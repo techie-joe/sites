@@ -1,5 +1,6 @@
 ---
 title: Demo
+description: Techie Joe's Sites Demo Page
 ---
 {%- if page.theme!="primer" %}{% assign use_base_theme = true %}{% endif -%}
 
