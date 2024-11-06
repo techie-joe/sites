@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "First Post"
-description: "Short description for this demo page."
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 permalink: first-post
 ---
 
