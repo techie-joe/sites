@@ -12,7 +12,7 @@ dir    : {{ page.dir }}
 path   : {{ page.path }}
 name   : {{ page.name }}
 
-published : {{ page.published }} # false # if you don't want to generate the post
+published : {{ page.published }} # false - if you don't want to generate the post
 
 content : size: {{ page.content.size | default:0 }}
 output  : size: {{ page.output.size | default:0 }}
