@@ -1,4 +1,6 @@
-# Posts and Pages
+---
+title: Posts and Pages
+---
 
 ### Pages
 {% for page in site.pages %}{% if page.title %}- [{{ page.title }}]({{ site.github.url }}{{ page.url }})
