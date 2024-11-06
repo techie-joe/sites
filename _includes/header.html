@@ -1,0 +1,11 @@
+{% if page.header == 'use-bar' or site.header == 'use-bar' %}
+  <nav id="header-bar">
+    <div class="_flex my-2">
+      <div class="_flex-main">{% include title.html %}</div>
+      <div>{% include topmenu.html %}</div>
+    </div>
+    <hr class="mt-0" />
+  </nav>
+{% else %}
+  {% include title.html %}
+{% endif %}
