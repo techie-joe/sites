@@ -7,9 +7,7 @@ description: Techie Joe's Sites Demo Page
 This is the demo page for **Techie Joe’s Sites** - a Jekyll theme for building websites on GitHub. **Sites** helps you swiftly build your website on GitHub. It has everything pre-configured to get you started right away. You can write your content in both Markdown and HTML. When you commit your code, **GitHub Pages** will build your website from the content of your repository.
 {: .bg-secondary.p-3.text-slategray.text-small }
 
-***
-
-<h1 class="hero" id="_hero-title">You can write big<span class="text-red">red</span> hero text</h1>
+<h1 class="hero" id="_hero-title">You can write <span class="text-red">a big red</span> hero text</h1>
 
 ***
 
