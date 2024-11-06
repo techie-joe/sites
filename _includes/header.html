@@ -1,7 +1,7 @@
 {% if page.header == 'use-bar' or site.header == 'use-bar' %}
   <nav id="_header-bar">
     <div class="_flex my-2">
-      <div class="_flex-main">{% if page.url == '' or page.url == '/' else include title.html endif %}</div>
+      <div class="_flex-main">{% if page.url == '' or page.url == '/' %}{% else %}{% include title.html %}{% endif %}</div>
       {% include topmenu.html %}
     </div>
     <hr class="mt-0" />
