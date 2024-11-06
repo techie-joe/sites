@@ -20,8 +20,7 @@ Open your site's repository. At the root directory of your site, edit the `_conf
 
 ### Demo pages
 
-- [Page](./_pages/)
-- [Post](./_posts/)
+| [Page](./_pages/) | [Post](./_posts/) |
 
 ### License
 
