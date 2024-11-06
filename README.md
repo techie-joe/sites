@@ -1,13 +1,13 @@
 <h1 id="_hero-title">Techie Joe's Sites</h1>
 
-A Jekyll theme for building websites on GitHub
+A Jekyll theme for my websites
 ---
 
 ```yml
 remote_theme: techie-joe/sites
 ```
 
-[Sites][website] helps you build a website easily
+[Sites][website] helps you build websites easily
 ---
 
 **Techie Joe's Sites** can help you build a website on GitHub fairly easy. It has everything pre-configured to get you started right away. You can write contents in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
