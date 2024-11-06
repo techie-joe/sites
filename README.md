@@ -10,7 +10,7 @@ remote_theme: techie-joe/sites
 [Sites][website] helps you build websites easily
 ---
 
-**Techie Joe's Sites** can help you build a website on GitHub fairly easy. It has everything pre-configured to get you started right away. You can write contents in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
+**Techie Joe's Sites** can help you build websites on GitHub fairly easy. It has everything pre-configured to get you started right away. You can write contents in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
 
 <a href="./pages/" title="See how you can use this template to build websites" class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">See examples</a>
 
