@@ -1,13 +1,10 @@
-<div>{{ absolute_url }} | {{ page.path }}</div>
-<nav id="_header-bar">
-  <div class="_flex my-2">
-    <div class="_flex-main">{% include title.html %}</div>
-    <div>{% include topmenu.html %}</div>
-  </div>
-  <hr class="mt-0" />
-</nav>
-{% if page.path != '' and page.path != page.name %}
-  {% if page.header == 'use-bar' or site.header == 'use-bar' %}
-  {% endif %}
+{% if page.header == 'use-bar' or site.header == 'use-bar' %}
+  <nav id="_header-bar">
+    <div class="_flex my-2">
+      <div class="_flex-main">{% if page.url != '' %}{% include title.html %}{% endif %}</div>
+      {% include topmenu.html %}
+    </div>
+    <hr class="mt-0" />
+  </nav>
 {% endif %}
 {% include title.html %}
