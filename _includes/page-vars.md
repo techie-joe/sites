@@ -1,7 +1,7 @@
 ###### page
 
 ```yml
-# {% for v in page -%}{{ v[0] }} {% endfor %}
+# page [ {% for v in page %}{{ v[0] }} {% endfor %}]
 
 title  : {{ page.title }}
 layout : {{ page.layout }}
