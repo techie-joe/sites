@@ -1,11 +1,12 @@
-{% if page.header == 'use-bar' or site.header == 'use-bar' %}
-  <nav id="_header-bar">
-    <div class="_flex my-2">
-      <div class="_flex-main">{% include title.html %}</div>
-      <div>{% include topmenu.html %}</div>
-    </div>
-    <hr class="mt-0" />
-  </nav>
-{% else %}
-  {% include title.html %}
+{% if page.path != '' and page.path != page.name %}
+  {% if page.header == 'use-bar' or site.header == 'use-bar' %}
+    <nav id="_header-bar">
+      <div class="_flex my-2">
+        <div class="_flex-main">{% include title.html %}</div>
+        <div>{% include topmenu.html %}</div>
+      </div>
+      <hr class="mt-0" />
+    </nav>
+  {% endif %}
 {% endif %}
+{% include title.html %}
