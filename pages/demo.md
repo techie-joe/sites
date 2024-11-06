@@ -4,25 +4,12 @@ description: Techie Joe's Sites Demo Page
 ---
 {%- if page.theme!="primer" %}{% assign use_base_theme = true %}{% endif -%}
 
-This template helps you build websites on **GitHub**.
-It has everything pre-configured to get you started right away.
-You can write your content using any code editor you like.
-When you commit your code to your repository, **GitHub Pages** will build your website from the content of your files.
+This is the demo page for **Techie Joe’s Sites** - a Jekyll theme for building websites on GitHub. **Sites** helps you swiftly build your website on GitHub. It has everything pre-configured to get you started right away. You can write your content in both Markdown and HTML. When you commit your code, **GitHub Pages** will build your website from the content of your repository.
 {: .bg-secondary.p-3.text-slategray.text-small }
-
-**[Intro][intro]** &middot;
-**[How to use][how]** &middot;
-**[View source][source]**
-{: .text-grey }
-
-[intro]:  https://nikahmadz.github.io/central/ "Introduction to Pages"
-[how]:    https://github.com/nikahmadz/central/#get-started "Find out how you can use this template to build websites"
-[source]: https://github.com/nikahmadz/central "View source on Github"
 
 ***
 
-You can write <span class="text-red">hero texts</span> too
-{: .hero }
+<h1 class="hero" id="_hero-title">You can write big<span class="text-red">red</span> hero text</h1>
 
 ***
 
@@ -214,7 +201,7 @@ If you link to a missing page, you'll see [an error](../404 "Page not found").
 
 Some layout allows user to switch between ***light*** and ***dark*** theme.
 
-<b><a href="#" onclick="event.preventDefault();window.base&&window.base.theme.change()" title="Change theme (Alt+T)">Change theme (Alt+T)</a></b>
+<b><a href="#" onclick="event.preventDefault();window.base&&window.base.theme.change()" title="Change theme (Ctrl+Alt+T)">Change theme (Ctrl+Alt+T)</a></b>
 {% endif %}
 
 ## Footnotes
