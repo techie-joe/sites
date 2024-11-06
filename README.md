@@ -1,4 +1,4 @@
-# Techie Joe's Sites
+<h1 id="_hero-title">Techie Joe's Sites</h1>
 
 A Jekyll theme for building websites on GitHub
 ---
