@@ -195,6 +195,8 @@ You can create links to
 
 If you link to a missing page, you'll see [an error](../404 "Page not found").
 
+## Button Links
+
 <a href="#" class="_bt -l -blue">Primary Button Link</a>
 <a href="#" class="_bt -l -flat">Secondary Button Link</a>
 
