@@ -1,9 +1,7 @@
 # Pages
 
-Number of pages in this site: {{ site.pages.size | default:0 }}
-
-{% for page in site.pages %}
+{% for page in site.pages %}{% if page.title %}
 ### [{{ page.title }}]({{ page.url }})
 path      : {{ page.path }}
 published : {{ page.published }}
-{% endfor %}
+{% endfor %}{% endif %}
