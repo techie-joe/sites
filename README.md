@@ -27,6 +27,8 @@ Open your site's repository. At the root directory of your site, edit the `_conf
 **Techie Joe's Sites** is licensed under the [MIT LICENSE](//github.com/techie-joe/sites/blob/main/LICENSE).  
 You're allowed to use the code with conditions only requiring preservation of copyright and license notices.
 
+&nbsp;
+  
 ---
 
 | [View source on GitHub][source] |
