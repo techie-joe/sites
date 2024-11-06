@@ -1,8 +1,8 @@
 ---
+layout: posts
 title:  "First Post"
 description: "Short description for this demo page."
 permalink: first-post
-layout: posts
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem lacus, dictum non augue a, hendrerit mattis eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec condimentum quam nec tincidunt fringilla. Integer tincidunt, sapien non tincidunt blandit, quam ligula scelerisque risus, quis facilisis arcu nibh et mauris. Etiam dui augue, malesuada in tincidunt quis, ultrices ut justo. Morbi dui metus, sodales quis augue et, ultricies consequat eros. Aenean condimentum tempus ullamcorper.
