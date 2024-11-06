@@ -17,6 +17,7 @@ exclude: # Exclude these files from production site
 - Gemfile
 - Gemfile.lock
 - CNAME
+- ".github"
 
 # plugins:
 #  - jekyll-remote-theme
