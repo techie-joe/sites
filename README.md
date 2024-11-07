@@ -5,8 +5,7 @@ A Jekyll theme for my websites
 
 ```yml
 remote_theme: techie-joe/sites
-```
-```yml
+
 build_revision: {{ site.github.build_revision }}
 ```
 
