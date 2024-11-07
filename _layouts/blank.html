@@ -1,5 +1,5 @@
 ---
-# blank document
+# a blank document
 name: blank
 ---
-{{ content }}
+{{ content | markdownify | strip_html }}
