@@ -1,12 +1,10 @@
 ---
-title: Page examples
+title: Pages
+description: Pages on this site.
+permalink: pages
 ---
 
-### Pages
-{% for page in site.pages %}{% if page.title %}- [{{ page.title }}]({{ site.github.url }}{{ page.url }})
-{% endif %}{% endfor %}
+# Pages
 
-### Posts
-{% for post in site.posts %}{% if post.title %}- [{{ post.title }}]({{ site.github.url }}{{ post.url }})
-{% else %}- [(Untitled post)]({{ site.github.url }}{{ post.url }})
+{% for p in site.pages %}{% if p.title and p.title != page.title %}- [{{ p.title }}]({{ site.github.url }}{{ p.url }})
 {% endif %}{% endfor %}
