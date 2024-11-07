@@ -4,9 +4,11 @@ A Jekyll theme for my websites
 ---
 
 ```yml
+
 remote_theme: techie-joe/sites
 
-build_revision: {{ site.github.build_revision }}
+remote_theme_build_revision: {{ site.github.build_revision }}
+
 ```
 
 [Sites][website] helps you build websites easily
