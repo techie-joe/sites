@@ -1,3 +1,7 @@
+---
+layout: blank
+title: VERSION
+---
 {
 	"repository_nwo" : "{{ site.github.repository_nwo }}",
 	"build_revision" : "{{ site.github.build_revision }}"
