@@ -1,5 +1,5 @@
 ---
-title: Demo page
+title: Demo Page
 description: Demo page for a Jekyll theme.
 permalink: demo
 ---
