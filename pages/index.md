@@ -15,5 +15,5 @@ description: Pages on this site.
 
 ---
 
-> {% include back.html %}
-> <a title="Go to {{ site.title }}" class="_bt -l -blue" href="{{ site.github.url }}">Go to Home Page</a>
+{% include back.html %}
+<a title="Go to {{ site.title }}" class="_bt -l -blue" href="{{ site.github.url }}">Go to Home Page</a>
