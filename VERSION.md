@@ -1,6 +1,7 @@
 ---
 layout: blank
 title: Version
+permalink: VERSION
 ---
 {
 	"name"            : "{{ site.nickname }}",
